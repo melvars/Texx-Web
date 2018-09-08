@@ -65,7 +65,7 @@ body {
 
 .input {
     width: 70%;
-    height: 50px;
+    height: 20px;
     background: transparent;
     padding: auto;
     font-family: Ubuntu-Bold;
@@ -74,7 +74,7 @@ body {
 }
 
 .lnr {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .graytext {
