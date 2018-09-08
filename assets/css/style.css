@@ -70,6 +70,7 @@ body {
     padding: auto;
     font-family: Ubuntu-Bold;
     float: right;
+    border: none;
 }
 
 .lnr {
