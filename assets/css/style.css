@@ -112,6 +112,11 @@ body {
     cursor: pointer;
 }
 
+.register {
+    alignment: bottom;
+    font-size: 13px;
+}
+
 @keyframes middle-to-top {
     from {
         margin-top: 50vh;
