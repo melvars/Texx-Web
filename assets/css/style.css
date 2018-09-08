@@ -5,6 +5,16 @@
   & Marco Alexander Fischer
 ######################### */
 
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url('../fonts/ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url('../fonts/ubuntu/Ubuntu-Bold.ttf');
+}
+
 html, body {
     height: 100%;
 }
@@ -39,17 +49,38 @@ body {
 }
 
 .loginform-box {
+    opacity: 0;
     text-align: center;
     background: white;
     width: 300px;
     height: 300px;
     border-radius: 20px;
     padding: 10px;
-    border: gray 4px solid;
+    animation-name: fade-in-custom;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    color: dimgray;
+}
+
+.input {
+    width: 70%;
+    height: 50px;
+    background: transparent;
+    padding: auto;
+    font-family: Ubuntu-Bold;
+    float: right;
+}
+
+.lnr {
+    font-size: 60px;
 }
 
 .graytext {
     color: #282828;
+    font-family: Ubuntu-Bold;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 @keyframes middle-to-top {
@@ -57,7 +88,7 @@ body {
         margin-top: 50vh;
     }
     to {
-        margin-top: 20px;
+        margin-top: 5vh;
     }
 }
 
@@ -69,4 +100,13 @@ body {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: white; }
+}
+
+@keyframes fade-in-custom {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }
