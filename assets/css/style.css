@@ -83,6 +83,34 @@ body {
     font-size: 18px;
 }
 
+.button-blue {
+    background: #16BFFD; /* fallback for bad browsers */
+    background: linear-gradient(to right, #CB3066, #16BFFD);
+    color: white;
+    border-radius: 20px;
+    width: 160px;
+    height: 35px;
+    border: none;
+    font-family: Ubuntu-Bold;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.button-blue:hover {
+    background: #16BFFD; /* fallback for bad browsers */
+    background: linear-gradient(to right, #CB3066, #16BFFD);
+    color: white;
+    border-radius: 20px;
+    width: 175px;
+    height: 35px;
+    border: none;
+    font-family: Ubuntu-Bold;
+    cursor: pointer;
+}
+
 @keyframes middle-to-top {
     from {
         margin-top: 50vh;
