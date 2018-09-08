@@ -11,22 +11,54 @@ html, body {
 
 body {
     background-color: #282828;
-    display: flex;
-    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    display: grid;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .typewriter h1 {
-    font-family: 'Mukta', sans-serif;
-    color: white;
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
     animation:
-            typing 3.5s steps(40, end),
+            typing 1s steps(40, end),
             blink-caret .75s step-end infinite;
+}
+
+.heading {
+    margin-top: 50vh;
+    animation-name: middle-to-top;
+    animation-delay: 1.5s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.loginform-box {
+    text-align: center;
+    background: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    border: gray 4px solid;
+}
+
+.graytext {
+    color: #282828;
+}
+
+@keyframes middle-to-top {
+    from {
+        margin-top: 50vh;
+    }
+    to {
+        margin-top: 20px;
+    }
 }
 
 @keyframes typing {
