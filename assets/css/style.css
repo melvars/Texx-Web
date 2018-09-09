@@ -27,6 +27,7 @@ body {
 }
 
 .typewriter h1 {
+    display: none;
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
@@ -35,7 +36,6 @@ body {
     animation:
             typing 1s steps(40, end),
             blink-caret .75s step-end infinite;
-    animation-delay: 1s;
 }
 
 .heading {
