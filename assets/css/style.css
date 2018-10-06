@@ -115,6 +115,12 @@ body {
     font-size: 13px;
 }
 
+.bottom-right-logo {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
 a:visited {
     text-decoration: none;
     color: #FB5D5E;
