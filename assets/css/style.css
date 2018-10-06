@@ -116,9 +116,14 @@ body {
 }
 
 .bottom-right-logo {
+    opacity: 0;
     position: absolute;
     bottom: 5px;
     right: 20px;
+    animation-name: fade-in-custom;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 a:visited {
