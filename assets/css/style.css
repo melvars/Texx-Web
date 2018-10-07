@@ -17,7 +17,7 @@ html, body {
 body {
     font-family: 'Mukta', sans-serif;
     color: white;
-    display: grid;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,6 +40,7 @@ body {
 
 .heading {
     margin-top: 50vh;
+    margin-bottom: 10vh;
     animation-name: middle-to-top;
     animation-delay: 2.5s;
     animation-duration: .5s;
