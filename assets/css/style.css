@@ -22,12 +22,13 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: url("../images/bg.jpg") no-repeat;
+    background-color: #263238;
     background-size: cover
 }
 
 .typewriter h1 {
     display: none;
+    text-shadow: 2px 2px 5px #263238;
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
