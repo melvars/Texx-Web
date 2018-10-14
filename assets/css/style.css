@@ -126,6 +126,11 @@ body {
     animation-delay: 4s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    transition: all .2s ease-in-out;
+}
+
+.bottom-right-logo:hover {
+    transform: scale(1.1);
 }
 
 a:visited {
