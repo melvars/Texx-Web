@@ -1,5 +1,5 @@
+$("body").css("backgroundImage", "url('https://source.unsplash.com/collection/3349303/" + window.outerWidth + "x" + window.outerHeight + "')");
 $(window).on("load", () => {
-    $("body").css("backgroundImage", "url('https://source.unsplash.com/collection/3349303/" + window.outerWidth + "x" + window.outerHeight + "')");
     $("#udDots")
         .fadeOut(300, () => {
             $(".typewriter h1").fadeIn();
